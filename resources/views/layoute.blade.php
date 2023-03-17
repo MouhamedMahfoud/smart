@@ -90,9 +90,9 @@
             </div>
             <div class="col-md-6 text-md-end">
               <div class="social">
-                <a href="https://www.facebook.com/visaimmigrationgroup?mibextid=LQQJ4d" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://instagram.com/vig_nkc?igshid=YmMyMTA2M2Y=" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a class="tiktok" href="https://www.tiktok.com/@vig_nkc?_t=8ZA0o6Pfep3&_r=1" ><i class='bx bxl-tiktok'></i></a>
+                {{-- <a href="" class="facebook"><i class="bx bxl-facebook"></i></a> --}}
+                <a href="https://instagram.com/smart_communication23?igshid=YmMyMTA2M2Y=" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a class="tiktok" href="https://www.tiktok.com/@smart.com23?_t=8aiTv7Jok3J&_r=1" ><i class='bx bxl-tiktok'></i></a>
               </div>
             </div>
           </div>
