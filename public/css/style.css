@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 /* #00e0fe */
 /* #1107fe */
@@ -82,7 +83,10 @@ img {
     margin-bottom: 0;
 }
 .navbar-brand .logo-smart {
-    width: 60px;
+    width: 96px;
+}
+.container-nabar-tow{
+    margin-top: -20px;
 }
 
 #services img {
@@ -100,6 +104,74 @@ section {
     padding-bottom: 80px;
     z-index: 2;
     position: relative;
+}
+/* dd */
+.dropbtn {
+    padding:0px 0px 0px 16px;
+    /* font-size: 16px; */
+    /* border: none; */
+    cursor: pointer;
+
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white ;
+    min-width: 203px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-top: 3px solid #3e8ffe;
+    /* transform: translateY(90px); */
+  }
+  .dropdown-content a{
+    font-family: "Nunito", sans-serif;
+}
+
+  .dropdown-content a:hover {
+    color: #3e8ffe;
+
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+
+  .dropdown:hover .dropbtn {
+    background: linear-gradient(to top,#3e8ffe 15%,white 15%);
+    color: #3e8ffe;
+  }
+/* dd */
+/* .dropdown .ldropdown:hover{
+    border-bottom: 10px solid #b1c700;
+    display: inline-block;
+} */
+/* .dropdown-menu{
+    padding:0px;
+} */
+/* .dropdown-menu[data-bs-popper]{
+    margin-top: 0px;
+    border-top: 3px solid #b1c700;
+    border-radius: 0px;
+} */
+/* .navbar .dropdown-item{ */
+    /* padding: 10px;
+} */
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove default indentation */
+    font-size: 13px;
+}
+ul li::before {
+    content: "-"; /* Add a dash before each list item */
+    margin-right: 5px; /* Add some space between the dash and the text */
 }
 
 .overlay {
@@ -119,6 +191,8 @@ section {
 }
 .navbar {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    padding-bottom: 0px;
+
 }
 .navbar a {
     display: flex;
@@ -132,6 +206,10 @@ section {
     white-space: nowrap;
     transition: 0.3s;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar .dropdown-content a {
+    text-transform: none;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
@@ -187,6 +265,17 @@ section {
 .service .service-img {
     position: relative;
 }
+.service .service-img .plogo{
+    /* height: 800px; */
+    width: auto;
+    min-height: 400px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.service .heigth-box{
+     margin-bottom: -77px;
+}
+
 .service .service-img .icon {
     width: 90px;
     height: 90px;
@@ -294,13 +383,6 @@ footer a {
 .owl-2-style .owl-dots .owl-dot:focus {
     outline: none;
 }
-/* end slide */
-/* .contact .info {
-  width: 100%;
-} */
-/* #services .color-seconde {
-    background-color: #1b1b1b;
-} */
 
 .contact .info i {
     font-size: 20px;
@@ -504,3 +586,210 @@ footer .social a {
     box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
 } */
 /* End Email send */
+
+.modal-backdrop{
+    --bs-backdrop-zindex: 1049;
+    background-color: rgba(0,0,0,0.1);
+}
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1050; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  /* Modal Content (image) */
+.modal-contentimg {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+  }
+
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+
+  /* Add Animation */
+  .modal-contentimg, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+  }
+
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 1000px){
+    .modal-contentimg {
+      width: 100%;
+    }
+  }
+/* start studio */
+
+.overlay11{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+.image-popup:hover .overlay11 {
+    height: 100%;
+  }
+  .image-popup:hover .overlay11 .text {
+    transition-delay: 1s;
+  }
+  .text11 {
+    color: white;
+    font-size: 18px;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+#services img {
+    /* min-height: 237px;*/
+    max-height: 237px;
+}
+.services {
+    margin-bottom: 40px;
+}
+
+.studio .service-img {
+    position: relative;
+}
+.studios .service-img #myImg1,#myImg6,#myImg11,#myImg16,#myImg21,#myImg26{
+    border-radius: 10px 25px 0px 0px;
+}
+.studios .service-img #myImg2,#myImg7,#myImg12,#myImg17,#myImg22,#myImg27{
+    border-radius: 25px 0px 0px 10px;
+}
+.studios .service-img #myImg3,#myImg4,#myImg5,#myImg8,#myImg9,#myImg10,#myImg13,#myImg14,#myImg15,#myImg18,#myImg19,#myImg20,#myImg23,#myImg24,#myImg25,#myImg28,#myImg29,#myImg30{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.studio-creation{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.studios .button {
+    background-color: #b1c700;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 10% 30% 50% 70%;
+  }
+ .studios .button:hover {
+    background-color: #333; /* Change the background color on hover */
+  }
+/* end studio */
+
+/* sidebar */
+.imgSlide {
+    vertical-align: middle;
+  }
+
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+  /* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+  }
+
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+/* sidebar */
+.cursor-pointer{
+    cursor: pointer;
+}

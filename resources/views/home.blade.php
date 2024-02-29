@@ -213,7 +213,7 @@
             <div class="service">
               <div class="service-img">
                 <img src="img/nosService/Branding1.jpg" alt="" />
-                <div class="icon"><i class="icon-tools"></i></div>
+                <a href="{{url('/agence-de-communication')}}"><div class="icon"><i class="icon-tools"></i></div></a>
               </div>
               <h5 class="mt-5 pt-4">Branding & Graphisme</h5>
               <p class="text-start">
@@ -231,7 +231,7 @@
             <div class="service">
               <div class="service-img">
                 <img src="img/nosService/print.jpg" alt="" />
-                <div class="icon"><i class="bx bx-printer"></i></div>
+                <a href="{{url('/print-edition')}}"><div class="icon"><i class="bx bx-printer"></i></div></a>
               </div>
               <h5 class="mt-5 pt-4">Print & édition</h5>
               <p class="text-start">
@@ -247,7 +247,7 @@
             <div class="service">
               <div class="service-img">
                 <img src="img/nosService/panoExt1.jpg" alt="" />
-                <div class="icon"><i class='bx bx-border-radius'></i></div>
+                <a href="{{url('/signaletique')}}"><div class="icon"><i class='bx bx-border-radius'></i></div></a>
               </div>
               <h5 class="mt-5 pt-4">Signalétique intérieur/extérieur</h5>
               <p class="text-start">

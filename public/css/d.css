@@ -1,0 +1,26 @@
+#services img {
+    /* min-height: 237px;*/
+    max-height: 237px;
+}
+
+.service .service-img {
+    position: relative;
+}
+.service .service-img .icon {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right, #00e0fe, #25aae1);
+    box-shadow: 0 20px 25px rgb(0 0 0 / 12%);
+    color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.service .service-img .icon i {
+    font-size: 36px;
+}

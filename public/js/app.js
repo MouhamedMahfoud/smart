@@ -64,4 +64,122 @@ $(function () {
     });
   };
   carousel();
+
+
 });
+
+function overlayOpen(imgId, modalId){
+  openModal(imgId, modalId);
+}
+function openModal(imgId, modalId) {
+   var modal = document.getElementById(modalId);
+   var img = document.getElementById(imgId);
+   var modalImg = modal.getElementsByClassName("modal-contentimg")[0];
+
+   modal.style.display = "block";
+   modalImg.src = img.src;
+}
+
+
+function closeModal(modalId) {
+   var modal = document.getElementById(modalId);
+   modal.style.display = "none";
+}
+
+var imageContainers = document.querySelectorAll('.service-img');
+imageContainers.forEach(function (container, index) {
+   var img = container.querySelector('img');
+   var modalId = 'myModal' + (index + 1);
+   var captionId = 'caption' + (index + 1);
+
+   img.onclick = function () {
+      openModal('myImg' + (index + 1), modalId, captionId);
+   };
+
+  //  var closeButton = document.querySelector('#' + modalId + ' .close');
+
+  //  closeButton.onclick = function () {
+  //     closeModal(modalId);
+  //  };
+
+   window.onclick = function (event) {
+      if (event.target.classList.contains('modal')) {
+         closeModal(event.target.id);
+      }
+   };
+});
+
+// ******************* start sidebar1 createlogo  ********************* //
+// mySlidesModele1
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+      let i;
+        let slides = document.getElementsByClassName("mySlidesModele1");
+
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+
+// mySlidesModele2
+let slideIndex2 = 1;
+showSlides1(slideIndex2);
+function currentSlide1(n) {
+    showSlides1(slideIndex2 = n);
+}
+function showSlides1(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlidesModele2");
+
+    if (n > slides.length) { slideIndex2 = 1 }
+    if (n < 1) { slideIndex2 = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex2 - 1].style.display = "block";
+}
+
+// mySlidesModele3 currentSlide4
+let slideIndex3 = 1;
+showSlides3(slideIndex3);
+function currentSlide3(n) {
+    showSlides3(slideIndex3 = n);
+}
+function showSlides3(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlidesModele3");
+
+    if (n > slides.length) { slideIndex3 = 1 }
+    if (n < 1) { slideIndex3 = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex3 - 1].style.display = "block";
+}
+
+// mySlidesModele4
+let slideIndex4 = 1;
+showSlides4(slideIndex4);
+function currentSlide4(n) {
+    showSlides4(slideIndex4 = n);
+}
+function showSlides4(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlidesModele4");
+
+    if (n > slides.length) { slideIndex4 = 1 }
+    if (n < 1) { slideIndex4 = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex4 - 1].style.display = "block";
+}
+
+// ******************* end sidebar1 createlogo  ********************* //
