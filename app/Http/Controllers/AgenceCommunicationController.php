@@ -8,10 +8,16 @@ class AgenceCommunicationController extends Controller
 {
     public function index()
     {
-        return view('pages.agenceCommunication.notreStrategie'); 
+        return view('pages.agenceCommunication.notreStrategie');
     }
     public function studioCreation(){
         return view('pages.agenceCommunication.studioCreation');
+    }
+    public function studioLogo(){
+        return view('pages.agenceCommunication.studioLogo');
+    }
+    public function studioCharteGraphique(){
+        return view('pages.agenceCommunication.studioGrahic');
     }
 
     public function creationLogo(){

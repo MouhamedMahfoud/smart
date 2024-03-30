@@ -610,7 +610,8 @@ footer .social a {
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 1000px;
+    /* max-width: 1000px; */
+    max-height: 90%;
   }
 
   /* Caption of Modal Image */
@@ -793,3 +794,12 @@ footer .social a {
 .cursor-pointer{
     cursor: pointer;
 }
+ .stidioIm{
+    max-height: 368px;
+ }
+ .stidioIm-min{
+    max-height: 179px;
+ }
+ .max-height-img{
+    max-height: 205px;
+ }

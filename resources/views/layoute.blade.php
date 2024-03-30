@@ -73,19 +73,19 @@
                             <a class="nav-link dropbtn" href="{{url('/signaletique')}}">Signalétique</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropbtn" href="#contact">Réseaux sociaux</a>
+                            <a class="nav-link dropbtn" href="{{url('/reseauxSociaux')}}">Réseaux sociaux</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropbtn" href="#services">Goodies & Cadeaux</a>
+                            <a class="nav-link dropbtn" href="{{url('/Goodies')}}">Goodies & Cadeaux</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropbtn" href="#contact">Site web</a>
+                            <a class="nav-link dropbtn" href="{{url('/siteweb')}}">Site web</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropbtn" href="#services">La production événementielle</a>
+                            <a class="nav-link dropbtn" href="{{url('/Production-even')}}">La production événementielle</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropbtn" href="#contact">Personnalisation textile </a>
+                            <a class="nav-link dropbtn" href="{{url('/Personnalisation')}}">Personnalisation textile </a>
                         </li>
                     </ul>
                 </div>

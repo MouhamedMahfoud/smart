@@ -3,22 +3,22 @@
 <!-- Start home  -->
 <section id="ACCUEIL" class="bg-cover hero-section">
     <div class="home-slider owl-carousel js-fullheight">
-        <div class="slider-item js-fullheight" style="background-image: url(img/agenceCommunication/noterStrategie/1.jpg)">
+        <div class="slider-item js-fullheight" style="background-image: url(img/logo/15.jpg)">
             <div class="overlay"></div>
         </div>
-        <div class="slider-item js-fullheight" style="background-image: url(img/agenceCommunication/noterStrategie/2.jpg)">
+        <div class="slider-item js-fullheight" style="background-image: url(img/logo/17.jpg)">
             <div class="overlay"></div>
         </div>
-        <div class="slider-item js-fullheight" style="background-image: url(img/agenceCommunication/noterStrategie/3.jpg)">
+        <div class="slider-item js-fullheight" style="background-image: url(img/logo/18.webp)">
             <div class="overlay"></div>
         </div>
-        <div class="slider-item js-fullheight" style="background-image: url(img/agenceCommunication/noterStrategie/4.jpg)">
+        <div class="slider-item js-fullheight" style="background-image: url(img/logo/8.webp)">
             <div class="overlay"></div>
         </div>
-        <div class="slider-item js-fullheight" style="background-image: url(img/agenceCommunication/noterStrategie/5.jpg)">
+        <div class="slider-item js-fullheight" style="background-image: url(img/logo/10.webp)">
             <div class="overlay"></div>
         </div>
-        <div class="slider-item js-fullheight" style="background-image: url(img/agenceCommunication/noterStrategie/6.jpg)">
+        <div class="slider-item js-fullheight" style="background-image: url(img/logo/13.avif)">
             <div class="overlay"></div>
         </div>
     </div>
@@ -436,7 +436,7 @@
             </div>
             <div class="col-md-3" data-aos="zoom-in">
                 <div class="service">
-                     <img class="cursor-pointer" data-bs-toggle="modal" data-bs-target="#detalModal2" src="img/nosService/Branding1.jpg" alt="" />
+                     <img class="cursor-pointer max-height-img" data-bs-toggle="modal" data-bs-target="#detalModal2" src="img/logo/1.jpg" alt="" />
                     <h5 class="mt-3 text-start">Création de logo </h5>
                     <h6 class="text-start">Pack classique</h6>
                     <p class="mb-2">CREATION D'UN LOGO (PACK CLASSIQUE)</p>
@@ -727,7 +727,7 @@
             <div class="col-md-6 studio-img">
                 <div class="studio image-popup">
                     <div class="service-img">
-                        <img class="imp" src="img/agenceCommunication/studio/2.jpeg" id="myImg1" onclick="openModal('myImg1', 'myModal1');" alt="" />
+                        <img  class="stidioIm" src="img/logo/8.webp" id="myImg1" onclick="openModal('myImg1', 'myModal1');" alt="" />
                         <!-- The Modal -->
                         <div id="myModal1" class="modal">
                             <img class="modal-contentimg" id="img01">
@@ -748,7 +748,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img src="img/agenceCommunication/studio/3.jpg" id="myImg2" onclick="openModal('myImg2', 'myModal2');" alt="" />
+                                <img  class="stidioIm-min" src="img/logo/1.jpg" id="myImg2" onclick="openModal('myImg2', 'myModal2');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal2" class="modal">
                                     <img class="modal-contentimg" id="img01">
@@ -766,7 +766,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img src="img/agenceCommunication/studio/4.jpg" id="myImg3" onclick="openModal('myImg3', 'myModal3');" alt="" />
+                                <img class="stidioIm-min" src="img/logo/3.jpg" id="myImg3" onclick="openModal('myImg3', 'myModal3');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal3" class="modal">
                                     <img class="modal-contentimg" id="img01">
@@ -784,7 +784,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img src="img/agenceCommunication/studio/5.jpg" id="myImg4" onclick="openModal('myImg4', 'myModal4');" alt="" />
+                                <img class="stidioIm-min" src="img/logo/5.jpg" id="myImg4" onclick="openModal('myImg4', 'myModal4');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal4" class="modal">
                                     <img class="modal-contentimg" id="img01">
@@ -802,7 +802,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img src="img/agenceCommunication/studio/13.jpg" id="myImg5" onclick="openModal('myImg5', 'myModal5');" alt="" />
+                                <img class="stidioIm-min" src="img/logo/6.jpg" id="myImg5" onclick="openModal('myImg5', 'myModal5');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal5" class="modal">
                                     <img class="modal-contentimg" id="img01">
@@ -821,7 +821,7 @@
             {{-- end fig--}}
         </div>
          <div class="col-12 text-center">
-            <a href="{{url('/studio-creation')}}" class="button">EN VOIR PLUS</a>
+            <a href="{{url('/studio-logo')}}" class="button">EN VOIR PLUS</a>
         </div>
     </div>
 </div>

@@ -14,7 +14,7 @@
             <div class="col-md-6 studio-img">
                 <div class="studio image-popup">
                     <div class="service-img">
-                        <img class="stidioIm" src="img/agenceCommunication/studio/2.jpeg" id="myImg1" onclick="openModal('myImg1', 'myModal1');" alt="" />
+                        <img class="stidioIm" src="img/chartgraphic/1.jpg" id="myImg1" onclick="openModal('myImg1', 'myModal1');" alt="" />
                         <!-- The Modal -->
                         <div id="myModal1" class="modal">
 
@@ -36,7 +36,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/4.jpg" id="myImg2" onclick="openModal('myImg2', 'myModal2');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/2.png" id="myImg2" onclick="openModal('myImg2', 'myModal2');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal2" class="modal">
 
@@ -54,7 +54,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/5.jpg" id="myImg3" onclick="openModal('myImg3', 'myModal3');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/3.jpg" id="myImg3" onclick="openModal('myImg3', 'myModal3');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal3" class="modal">
 
@@ -73,7 +73,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/13.jpg" id="myImg4" onclick="openModal('myImg4', 'myModal4');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/4.jpg" id="myImg4" onclick="openModal('myImg4', 'myModal4');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal4" class="modal">
 
@@ -92,7 +92,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/1.jpg" id="myImg5" onclick="openModal('myImg5', 'myModal5');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/5.jpg" id="myImg5" onclick="openModal('myImg5', 'myModal5');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal5" class="modal">
 
@@ -114,7 +114,7 @@
             <div class="col-md-6 studio-img">
                 <div class="studio image-popup">
                     <div class="service-img">
-                        <img class="stidioIm" src="img/agenceCommunication/studio/std1.jpg" id="myImg6" onclick="openModal('myImg6', 'myModal6');" alt="" />
+                        <img class="stidioIm" src="img/chartgraphic/6.jpg" id="myImg6" onclick="openModal('myImg6', 'myModal6');" alt="" />
                         <!-- The Modal -->
                         <div id="myModal6" class="modal">
 
@@ -135,7 +135,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/ham.jpg" id="myImg7" onclick="openModal('myImg7', 'myModal7');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/7.jpg" id="myImg7" onclick="openModal('myImg7', 'myModal7');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal7" class="modal">
 
@@ -153,7 +153,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std2.jpg" id="myImg8" onclick="openModal('myImg8', 'myModal8');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/8.png" id="myImg8" onclick="openModal('myImg8', 'myModal8');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal8" class="modal">
 
@@ -171,7 +171,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std3.jpg" id="myImg9" onclick="openModal('myImg9', 'myModal9');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/9.jpg" id="myImg9" onclick="openModal('myImg9', 'myModal9');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal9" class="modal">
 
@@ -190,7 +190,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std4.jpg" id="myImg10" onclick="openModal('myImg10', 'myModal10');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/10.avif" id="myImg10" onclick="openModal('myImg10', 'myModal10');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal10" class="modal">
 
@@ -213,7 +213,7 @@
             <div class="col-md-6 studio-img">
                 <div class="studio image-popup">
                     <div class="service-img">
-                        <img class="stidioIm" src="img/agenceCommunication/studio/ham.jpg" id="myImg11" onclick="openModal('myImg11', 'myModal11');" alt="" />
+                        <img class="stidioIm" src="img/chartgraphic/11.jpg" id="myImg11" onclick="openModal('myImg11', 'myModal11');" alt="" />
                         <!-- The Modal -->
                         <div id="myModal11" class="modal">
 
@@ -235,7 +235,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std5.jpg" id="myImg12" onclick="openModal('myImg12', 'myModal12');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/12.jpg" id="myImg12" onclick="openModal('myImg12', 'myModal12');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal12" class="modal">
 
@@ -254,7 +254,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std6.jpg" id="myImg13" onclick="openModal('myImg13', 'myModal13');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/13.png" id="myImg13" onclick="openModal('myImg13', 'myModal13');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal13" class="modal">
 
@@ -273,7 +273,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std7.jpg" id="myImg14" onclick="openModal('myImg14', 'myModal14');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/14.jpg" id="myImg14" onclick="openModal('myImg14', 'myModal14');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal14" class="modal">
 
@@ -292,7 +292,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std8.jpg" id="myImg15" onclick="openModal('myImg15', 'myModal15');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/15.webp" id="myImg15" onclick="openModal('myImg15', 'myModal15');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal15" class="modal">
 
@@ -315,7 +315,7 @@
             <div class="col-md-6 studio-img">
                 <div class="studio image-popup">
                     <div class="service-img">
-                        <img class="stidioIm" src="img/agenceCommunication/studio/std9.jpg" id="myImg16" onclick="openModal('myImg16', 'myModal16');" alt="" />
+                        <img class="stidioIm" src="img/chartgraphic/16.png" id="myImg16" onclick="openModal('myImg16', 'myModal16');" alt="" />
                         <!-- The Modal -->
                         <div id="myModal16" class="modal">
 
@@ -337,7 +337,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std10.jpg" id="myImg17" onclick="openModal('myImg17', 'myModal17');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/17.jpg" id="myImg17" onclick="openModal('myImg17', 'myModal17');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal17" class="modal">
 
@@ -356,7 +356,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std11.jpg" id="myImg18" onclick="openModal('myImg18', 'myModal18');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/18.jpg" id="myImg18" onclick="openModal('myImg18', 'myModal18');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal18" class="modal">
 
@@ -375,7 +375,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std12.jpg" id="myImg19" onclick="openModal('myImg19', 'myModal19');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/19.png" id="myImg19" onclick="openModal('myImg19', 'myModal19');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal19" class="modal">
 
@@ -394,7 +394,7 @@
                     <div class="col-md-6 ">
                         <div class="studio image-popup">
                             <div class="service-img">
-                                <img class="stidioIm-min" src="img/agenceCommunication/studio/std13.jpg" id="myImg20" onclick="openModal('myImg20', 'myModal20');" alt="" />
+                                <img class="stidioIm-min" src="img/chartgraphic/21.jpg" id="myImg20" onclick="openModal('myImg20', 'myModal20');" alt="" />
                                 <!-- The Modal -->
                                 <div id="myModal20" class="modal">
 
@@ -413,9 +413,6 @@
                 </div>
             </div>
             {{-- end fig--}}
-
-
-
 
         </div>
     </div>
